@@ -66,8 +66,7 @@ const updateTotal = () => {
   cartValue.textContent = totalQuantity;
 
   if (cartProduct.length === 0) {
-    cartList.innerHTML =
-      '<p class="cart-empty-message">Your cart is empty.</p>';
+    cartList.innerHTML ="";
   }
 };
 
